@@ -1,0 +1,13 @@
+<section *ngFor="let set of game.area; let y = index">
+	<app-box
+		*ngFor="let item of set; let x = index" 
+		[x]="x" 
+		[y]="y" 
+		[checked]="item.checked"
+		[hasBomb]="item.hasBomb"
+		[neighbors]="item.neighbors"
+	></app-box>
+</section>
+
+<p>There are {{game.bombsCount}} bombs</p>
+<p>Checked: {{game.checked}}</p>

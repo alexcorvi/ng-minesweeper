@@ -1,0 +1,14 @@
+.box {
+    padding: 5px;
+    background: #673ab7;
+    display: inline-block;
+    color: #fff;
+    box-shadow: 0 0 7px rgba(0,0,0,0.3);
+    cursor: pointer;
+}
+
+
+
+.box.checked {
+    background: #8BC34A;
+}
