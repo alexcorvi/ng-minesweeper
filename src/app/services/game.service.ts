@@ -1,5 +1,5 @@
 import { Injectable } from '@angular/core';
-import { Box } from "../types/box";
+import { Box } from "../classes/box";
 
 @Injectable()
 export class GameService {
